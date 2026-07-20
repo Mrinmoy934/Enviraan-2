@@ -1,16 +1,22 @@
-# React + Vite
+# EnviGuide (Enviraan 2)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Standalone product carbon footprint (PCF) transparency portal. 
 
-Currently, two official plugins are available:
+## Features
+- **Hero Section**: Sleek branding and introduction.
+- **Problem Statement**: Details physics, supply chain scatteredness, and regulatory challenges.
+- **PCF Explainer (Journey)**: Vertical scroll-driven timeline detailing product carbon accumulation stage-by-stage.
+- **The Method**: 4 interactive cards covering PCF requests, supplier onboarding questionnaires, calculation rules, and data quality rating.
+- **Inside the Platform**: 6-item overview of system features (Requests, Questionnaires, Portfolio, Ratings, Dashboards, Tasks/MFA).
+- **Interactive Glossary**: Dropdown accordion resolving key carbon terminology.
+- **Footer**: Integrated CTA, statistics overview, and booking support drawer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React + Vite
+- Framer Motion (Scroll animations, accordions)
+- Vanilla CSS Custom Properties
+- Lucide React / SVG Icons
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+1. Run `npm install`
+2. Run `npm run dev`
